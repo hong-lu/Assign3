@@ -3,7 +3,7 @@ class CreateTodos < ActiveRecord::Migration
     create_table :todos do |t|
       t.string :todo_item
 
-      t.timestamps null: false
+      t.timestamps
     end
   end
 end
